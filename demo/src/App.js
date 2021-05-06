@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
 import NavBar from './components/NavBar/NavBar';
 
-function App() {
+const App = () => {
   const [isAdmin, setIsAdmin] = useState(false);
   const [isSignedIn, setIsSignedIn] = useState(false);
 
@@ -19,10 +18,10 @@ function App() {
   });
 
   return (
-    <div className="App">
+    <div>
       <NavBar isAdmin={isAdmin} isSignedIn={isSignedIn} />
     </div>
   );
-}
+};
 
 export default App;
