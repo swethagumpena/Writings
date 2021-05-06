@@ -1,0 +1,44 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: black;
+  border-bottom: 0.35rem solid #002df4;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  list-style-type: none;
+  text-decoration-style: none;
+  padding: 0 1rem;
+}
+
+.leftContent {
+  font-weight: 700;
+}
+
+.rightContent {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: rgba(92, 88, 88, 0.699);
+  color: white;
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
